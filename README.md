@@ -3,6 +3,8 @@ Project in the [Computational Statistics](https://www11.ceda.polimi.it/schedainc
 
 Supervised by [Andrea Manzoni](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=189941&polij_device_category=DESKTOP&__pj0=0&__pj1=9619a602b442b2145bf9220580e36137)
 
+Project uses the [MLDA sampler](https://docs.pymc.io/en/stable/pymc-examples/examples/samplers/MLDA_introduction.html) implemented in [PyMC3](https://docs.pymc.io/en/v3/)
+
 ## Collaborators
 [Rasmus Tuxen](https://github.com/RTuxen)
 
