@@ -25,3 +25,5 @@ Hide the coefficients and use the MLMCMC solver on the problem. Compare the MAP 
 
 - Look into creating examples using Lotka–Volterra equations (set parameters for data generation+noise and then hide coeffients and 
 let the model figure them out)
+
+$\sum_{i=3}^4 = 2$
