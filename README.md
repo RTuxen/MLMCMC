@@ -26,4 +26,5 @@ Hide the coefficients and use the MLMCMC solver on the problem. Compare the MAP 
 - Look into creating examples using Lotka–Volterra equations (set parameters for data generation+noise and then hide coeffients and 
 let the model figure them out)
 
-$\sum_{i=3}^4 = 2$
+### Questions
+- What does the line 'MAP = pm.find_MAP()' do exactly. The MAP estimate it gets is usually very good and in the mlda code it uses it as a starting point. But I thought that the whole point of MCMC was to sample from the posterior -> so we could get MAP etc.
