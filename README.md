@@ -13,6 +13,16 @@ Project uses the [MLDA sampler](https://docs.pymc.io/en/stable/pymc-examples/exa
 [William Rom](https://www.google.com/)
 
 
+## Experimental Results
+In this project we show how MLMCMC techniques can be utilized to achieve a higher efficiency than the standard Metropolis sampler.
+Below is show the Effective Sample Size (ESS) of a Metropolis sampler compares to different initializations of the MLMCMC sampler with
+different depth and level coarsity:
+![Alt text](figures/spring_problem_analytical_figures/dual_parameter_estimation/increasing_level_noise_test/ess.png?raw=true "Title")
+
+Additionally we explore the effect of data density, data noise, prior distributions and proposal variance on simple ODE problems.
+Below is shown an example of priors examined in the Spring problem 
+![Alt text](figures/spring_problem_analytical_figures/dual_parameter_estimation/Prior_distribution_test/prior_distributions.png?raw=true "Title")
+
 ### Notes
 - We will primarily work with time-dependent ODE's
 
@@ -25,3 +35,8 @@ Hide the coefficients and use the MLMCMC solver on the problem. Compare the MAP 
 
 - Look into creating examples using Lotka–Volterra equations (set parameters for data generation+noise and then hide coeffients and 
 let the model figure them out)
+
+## References
+J. P. Madrigal-Cianci, F. Nobile, R. Tempone: Analysis of a class of Multi-Level Markov Chain Monte Carlo algorithms based on Independent Metropolis-Hastings, [https://arxiv.org/abs/2105.02035](https://arxiv.org/abs/2105.02035)
+
+T.J. Dodwell, C. Ketelsen, R. Scheichl, A.L. Teckentrup: A Hierarchical Multilevel Markov Chain Monte Carlo Algorithm with Applications to Uncertainty Quantification in Subsurface Flow, [https://arxiv.org/abs/1303.7343](https://arxiv.org/abs/1303.7343)
