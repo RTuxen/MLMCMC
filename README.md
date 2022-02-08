@@ -12,10 +12,13 @@ Project uses the [MLDA sampler](https://docs.pymc.io/en/stable/pymc-examples/exa
 
 [William Rom](https://www.google.com/)
 
+## Repository Structure
+
+TODO : Write about the structure of the repo
 
 ## Experimental Results
 In this project we show how MLMCMC techniques can be utilized to achieve a higher efficiency than the standard Metropolis sampler.
-Below is show the Effective Sample Size (ESS) of a Metropolis sampler compares to different initializations of the MLMCMC sampler with
+Below is show the Effective Sample Size (ESS) of a Metropolis sampler compared to different initializations of the MLMCMC sampler with
 different depth and level coarsity:
 ![Alt text](figures/spring_problem_analytical_figures/dual_parameter_estimation/increasing_level_noise_test/ess.png?raw=true "Title")
 
