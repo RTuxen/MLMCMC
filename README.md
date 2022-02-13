@@ -10,11 +10,13 @@ Project uses the [MLDA sampler](https://docs.pymc.io/en/stable/pymc-examples/exa
 
 [Simon Fredriksen](https://github.com/Slfredri)
 
-[William Rom](https://www.google.com/)
+[William Rom](https://github.com/William-Rom)
 
 ## Repository Structure
 
-TODO : Write about the structure of the repo
+All the work done is in the form of jupyter Notebooks. They can be found in the *Notebooks/* folder. The methods are primarily applied to two simple ODE problems:
+- An Oscillating Spring Problem
+- A Lotka-Volterre Problem
 
 ## Experimental Results
 In this project we show how MLMCMC techniques can be utilized to achieve a higher efficiency than the standard Metropolis sampler.
@@ -26,18 +28,6 @@ Additionally we explore the effect of data density, data noise, prior distributi
 Below is shown an example of priors examined in the Spring problem 
 ![Alt text](figures/spring_problem_analytical_figures/dual_parameter_estimation/Prior_distribution_test/prior_distributions.png?raw=true "Title")
 
-### Notes
-- We will primarily work with time-dependent ODE's
-
-- Look at the example codes and really understand them.
-Then check out if it works in google colab.
-Start out with easy examples of time dependent diff eq: like  ay' = b*y, dx(t)/dt = a(t)x(t).
-
-- Use different time durations T and different sampling rates dt to generate data then add some noise.
-Hide the coefficients and use the MLMCMC solver on the problem. Compare the MAP estimate of the coefficients to the problem
-
-- Look into creating examples using Lotka–Volterra equations (set parameters for data generation+noise and then hide coeffients and 
-let the model figure them out)
 
 ## References
 J. P. Madrigal-Cianci, F. Nobile, R. Tempone: Analysis of a class of Multi-Level Markov Chain Monte Carlo algorithms based on Independent Metropolis-Hastings, [https://arxiv.org/abs/2105.02035](https://arxiv.org/abs/2105.02035)
