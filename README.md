@@ -16,7 +16,7 @@ Project uses the [MLDA sampler](https://docs.pymc.io/en/stable/pymc-examples/exa
 
 All the work done is in the form of jupyter Notebooks. They can be found in the *Notebooks/* folder. The methods are primarily applied to two simple ODE problems:
 - An Oscillating Spring Problem
-- A Lotka-Volterre Problem
+- A Lotka-Volterra Problem
 
 ## Experimental Results
 In this project we show how MLMCMC techniques can be utilized to achieve a higher efficiency than the standard Metropolis sampler.
