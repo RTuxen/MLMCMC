@@ -2,6 +2,7 @@
 Combined project in the courses
 - [Computational Statistics](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&matricola=989644&c_insegn=055700) (055700) 
 - [Bayesian Statistics](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2016&k_cf=225&k_corso_la=487&k_indir=MST&codDescr=097659&lang=EN&semestre=1&anno_corso=2&idItemOfferta=120288&idRiga=194828) (052499) 
+
 at Politecnico di Milano in the 21/22 semester.
 
 Supervised by [Andrea Manzoni](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=189941&polij_device_category=DESKTOP&__pj0=0&__pj1=9619a602b442b2145bf9220580e36137) and [Alessandra Guglielmi](https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=5353&aa=2016&lang=EN&jaf_currentWFID=main)
